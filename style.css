@@ -1,0 +1,318 @@
+/*CSS Resets Start */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+ display: block;
+}
+html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+}
+body {
+ line-height: 1;
+ font-family: "Poppins", sans-serif;
+ font-family: "Ubuntu", sans-serif;
+ position: relative;
+ overflow-x: hidden;
+}
+ol,
+ul {
+ list-style: none;
+}
+blockquote,
+q {
+ quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+ content: "";
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/*CSS Resests Completed */
+
+/* default classes */
+a {
+ text-decoration: none;
+ color: blue;
+}
+.border {
+ border: 1px solid rgba(128, 128, 128, 0.318);
+}
+.container {
+ max-width: 1200px;
+ width: 100%;
+ margin: auto;
+ box-sizing: border-box;
+ /* border: 1px solid red; */
+}
+
+.Flex {
+ display: flex;
+}
+.Flexwrap {
+ flex-wrap: wrap;
+}
+.FlexNoWrap {
+ flex-wrap: nowrap;
+}
+
+.Flexcolomn {
+ flex-direction: column;
+}
+.justifyCenter {
+ justify-content: center;
+}
+.justifyRight {
+ justify-content: right;
+}
+.alignCenter {
+ align-items: center;
+}
+.alignStart {
+ align-items: start;
+}
+.spaceBetween {
+ justify-content: space-between;
+}
+.spaceAround {
+ justify-content: space-around;
+}
+.spaceEvenly {
+ justify-content: space-evenly;
+}
+.flex7 {
+ flex: 0 1 7%;
+}
+.flex10 {
+ flex: 0 1 10%;
+}
+.flex12 {
+ flex: 0 1 12%;
+}
+.flex15 {
+ flex: 0 1 15%;
+}
+.flex18 {
+ flex: 0 1 18%;
+}
+.flex20 {
+ flex: 0 1 20%;
+}
+.flex23 {
+ flex: 0 1 23%;
+}
+.flex22 {
+ flex: 0 1 22%;
+}
+.flex25 {
+ flex: 0 1 25%;
+}
+.flex28 {
+ flex: 0 1 28%;
+}
+.flex30 {
+ flex: 0 1 30%;
+}
+.flex33 {
+ flex: 0 1 33%;
+}
+.flex35 {
+ flex: 0 1 35%;
+}
+.flex40 {
+ flex: 0 1 40%;
+}
+.flex42 {
+ flex: 0 1 42%;
+}
+.flex45 {
+ flex: 0 1 45%;
+}
+.flex48 {
+ flex: 0 1 48%;
+}
+.flex50 {
+ flex: 0 1 50%;
+}
+.flex60 {
+ flex: 0 1 60%;
+}
+.flex65 {
+ flex: 0 1 65%;
+}
+.flex68 {
+ flex: 0 1 68%;
+}
+.flex70 {
+ flex: 0 1 70%;
+}
+.flex75 {
+ flex: 0 1 75%;
+}
+.flex80 {
+ flex: 0 1 80%;
+}
+.flex90 {
+ flex: 0 1 90%;
+}
+.widthFull {
+ width: 100%;
+}
+.height {
+ height: 100vh;
+}
+
+/* ----------------------------- */
+.header {
+ padding: 1rem 0rem;
+}
+.headerHeading {
+ font-size: 2.3rem;
+ color: #00bd5eb4;
+ font-weight: 600;
+ font-family: "Caveat", cursive;
+ font-family: "Kalam", cursive;
+ /* font-family: "Poppins", sans-serif;
+ font-family: "Ubuntu", sans-serif; */
+}
+.headerUl {
+ font-size: 1.2rem;
+}
+.image {
+ position: absolute;
+}
+.imagesParent {
+ /* position: absolute; */
+ margin-top: 1rem;
+ position: relative;
+}
+.content {
+ background: url("/assets/water.png") no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ position: absolute;
+ width: 100%;
+ top: 20rem;
+ /* background-color: #01868fa0; */
+ /* width: 85%; */
+ margin: auto;
+ padding: 2rem;
+ /* -webkit-mask-image: linear-gradient(transparent, black);
+ mask-image: linear-gradient (transparent, black); */
+}
+
+.heading {
+ text-align: center;
+ font-size: 3rem;
+ font-family: "Kalam", cursive;
+ font-family: "Poppins", sans-serif;
+ font-family: "Ubuntu", sans-serif;
+ font-weight: 600;
+ /* margin-top: 10rem; */
+ width: 30%;
+ position: absolute;
+ bottom: -10rem;
+}
